@@ -1,17 +1,1 @@
-{
-  "functions": {
-    "api/generate.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "routes": [
-    {
-      "src": "/api/generate",
-      "dest": "/api/generate.ts"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/"
-    }
-  ]
-}
+
